@@ -21,7 +21,7 @@ public class VaultGUI {
     }
 
     private static void showPasswordScreen() {
-        JFrame passwordFrame = new JFrame("Vault -  Password");
+        JFrame passwordFrame = new JFrame("Vault - Enter Password");
         passwordFrame.setSize(420, 280);
         passwordFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         passwordFrame.setLocationRelativeTo(null);
@@ -31,7 +31,7 @@ public class VaultGUI {
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         panel.setBackground(new Color(25, 25, 25));
 
-        JLabel titleLabel = new JLabel("🔐 Enter Your Vault Password");
+        JLabel titleLabel = new JLabel("Enter Your Vault Password");
         titleLabel.setForeground(Color.WHITE);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 16));
         titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
