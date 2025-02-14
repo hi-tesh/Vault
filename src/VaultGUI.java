@@ -41,7 +41,7 @@ public class VaultGUI {
         passwordField.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         passwordField.setMaximumSize(new Dimension(250, 40));
 
-        JButton enterButton = new JButton("Unlock Vault");
+        JButton enterButton = new JButton("Unlock Vaul");
         styleButton(enterButton, new Color(60, 179, 113));
         enterButton.setAlignmentX(Component.CENTER_ALIGNMENT);
 
