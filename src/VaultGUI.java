@@ -21,7 +21,7 @@ public class VaultGUI {
     }
 
     private static void showPasswordScreen() {
-        JFrame passwordFrame = new JFrame("Vault - Enter Password");
+        JFrame passwordFrame = new JFrame("Vault -  Password");
         passwordFrame.setSize(420, 280);
         passwordFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         passwordFrame.setLocationRelativeTo(null);
